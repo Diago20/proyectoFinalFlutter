@@ -45,7 +45,7 @@ class MainScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Welcome!",
+                          "Bienvenido!",
                           style: TextStyle(
                             fontSize: 12,
                             fontWeight: FontWeight.w600,
@@ -53,7 +53,7 @@ class MainScreen extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          "John Doe",
+                          "Camilo Ramirez",
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
@@ -93,7 +93,7 @@ class MainScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Text(
-                    'Total Balance',
+                    'Total Gastos',
                     style: TextStyle(
                       fontSize: 16,
                       color: Colors.white,
@@ -102,7 +102,7 @@ class MainScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 12),
                   const Text(
-                    '\$ 4800.00',
+                    '\$ 4\'800.000',
                     style: TextStyle(
                       fontSize: 40,
                       color: Colors.white,
@@ -136,7 +136,7 @@ class MainScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Income',
+                                  'Ingresos',
                                   style: TextStyle(
                                     fontSize: 14,
                                     color: Colors.white,
@@ -144,7 +144,7 @@ class MainScreen extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  '€ 2500.00',
+                                  '\$ 2\'500.000',
                                   style: TextStyle(
                                     fontSize: 14,
                                     color: Colors.white,
@@ -177,7 +177,7 @@ class MainScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Expenses',
+                                  'Gastos',
                                   style: TextStyle(
                                     fontSize: 14,
                                     color: Colors.white,
@@ -185,7 +185,7 @@ class MainScreen extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  '€ 800.00',
+                                  '\$ 800.000',
                                   style: TextStyle(
                                     fontSize: 14,
                                     color: Colors.white,
@@ -207,7 +207,7 @@ class MainScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'Transactions',
+                  'Transacciones',
                   style: TextStyle(
                     fontSize: 16,
                     color: Theme.of(context).colorScheme.onBackground,
@@ -219,7 +219,7 @@ class MainScreen extends StatelessWidget {
                     
                   },
                   child: Text(
-                    'View All',
+                    'Ver todo',
                     style: TextStyle(
                       fontSize: 14,
                       color: Theme.of(context).colorScheme.outline,
@@ -262,7 +262,7 @@ class MainScreen extends StatelessWidget {
                                     Image.asset(
                                       'assets/${expenses[i].category.icon}.png',
                                       scale: 2,
-                                      color: Colors.white,
+                                      color: Colors.green,
                                     )
                                   ],
                                 ),
@@ -281,7 +281,7 @@ class MainScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
                                 Text(
-                                  "\$${expenses[i].amount}.00",
+                                  "\$${expenses[i].amount}.",
                                   style: TextStyle(
                                     fontSize: 14,
                                     color: Theme.of(context).colorScheme.onBackground,

@@ -136,7 +136,7 @@ Future getCategoryCreation(BuildContext context) {
                                         },
                                         style: TextButton.styleFrom(backgroundColor: Colors.black, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
                                         child: const Text(
-                                          'Save Color',
+                                          'Guardar Color',
                                           style: TextStyle(fontSize: 22, color: Colors.white),
                                         )),
                                   )
@@ -180,7 +180,7 @@ Future getCategoryCreation(BuildContext context) {
                             },
                             style: TextButton.styleFrom(backgroundColor: Colors.black, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
                             child: const Text(
-                              'Save',
+                              'Guardar',
                               style: TextStyle(fontSize: 22, color: Colors.white),
                             )
                           ),
