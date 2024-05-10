@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1047702997505",
+    "firebase_url": "https://final-project-forum-9a8f8-default-rtdb.firebaseio.com",
+    "project_id": "final-project-forum-9a8f8",
+    "storage_bucket": "final-project-forum-9a8f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047702997505:android:f63ca0e49030a1ef140e00",
+        "android_client_info": {
+          "package_name": "com.example.forokotlin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT0O1IJ_OzlKgDP0Vb43CWFJyYnHgk4Zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047702997505:android:d8ce536c4fd82a2c140e00",
+        "android_client_info": {
+          "package_name": "com.example.poryecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT0O1IJ_OzlKgDP0Vb43CWFJyYnHgk4Zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

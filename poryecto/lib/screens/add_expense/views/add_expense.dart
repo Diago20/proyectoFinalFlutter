@@ -163,14 +163,12 @@ class _AddExpenseState extends State<AddExpense> {
                         onTap: () async {
                           DateTime? newDate = await showDatePicker(context: context, initialDate: expense.date, firstDate: DateTime.now(), lastDate: DateTime.now().add(const Duration(days: 365)));
 
-                          if (newDate != null) {
-                            setState(() {
-                              dateController.text = DateFormat('dd/MM/yyyy').format(newDate);
-                              // selectDate = newDate;
-                              expense.date = newDate;
-                            });
-                          }
-                        },
+                          setState(() {
+                            dateController.text = DateFormat('dd/MM/yyyy').format(newDate!);
+                            // selectDate = newDate;
+                            expense.date = newDate;
+                          });
+                                                },
                         decoration: InputDecoration(
                           filled: true,
                           fillColor: Colors.white,
